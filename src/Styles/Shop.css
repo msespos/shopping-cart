@@ -1,9 +1,0 @@
-* {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: xx-large;
-}
-
-.card-container {
-  display: flex;
-  justify-content: space-around;
-}
