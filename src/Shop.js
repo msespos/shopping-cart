@@ -11,7 +11,6 @@ const Shop = () => {
   const [numInCart, setNumInCart] = useState(0);
 
   const incrementCart = (amount) => {
-    console.log(amount);
     setNumInCart(numInCart + parseInt(amount));
   }
 
