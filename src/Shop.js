@@ -10,8 +10,9 @@ const TriRepetaeLink = "https://i.discogs.com/U5ZWcUltD6rFjocqtOO1rQZ60lTq22m4nt
 const Shop = () => {
   const [numInCart, setNumInCart] = useState(0);
 
-  const incrementCart = () => {
-    setNumInCart(numInCart + 1);
+  const incrementCart = (amount) => {
+    console.log(amount);
+    setNumInCart(numInCart + parseInt(amount));
   }
 
   return (
