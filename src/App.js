@@ -1,10 +1,12 @@
 import NavBar from "./NavBar";
 
+import logo from "./imgs/VintageAutechreAlbums.png"
+
 const App = () => {
   return (
     <div>
       <NavBar />
-      THIS WILL BE THE HOME PAGE
+      <img src={logo} />
     </div>
   );
 }
