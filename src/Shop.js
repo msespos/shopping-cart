@@ -22,7 +22,7 @@ const LP5Description = "1998. Fifth album. Self-titled but known generally as LP
 const ConfieldDescription = "2001. Sixth album. 62:00. A stark turn away from conventional tonality and rhythm. Often considered Autechre's masterpiece."
 const Draft730Description = "2003. Seventh album. 62:46. Somewhat of a combination of the more conventional beats and tonalities of LP5 with the experimental sounds of Confield."
 const UntiltedDescription = "2005. Eighth album. 69:50. A jolt of aggressive, even aggressively funky at times, beat-driven tracks. The title's pun is apt for this more straight-ahead album."
-const QuaristiceDescription = "2008. Ninth album. 73:15. Another left turn as the duo released 20 short, widely varied tracks. Extended digital-only versions were release later."
+const QuaristiceDescription = "2008. Ninth album. 73:15. Another left turn as the duo released 20 short, widely varied tracks. Extended digital-only versions were released later."
 const OverstepsDescription = "2010. Tenth album. 68:23. Autechre continued to surprise their audience by releasing a remarkeably subdued album, almost ambient in places, and much less beat-driven."
 
 const Shop = () => {
