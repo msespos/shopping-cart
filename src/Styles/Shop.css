@@ -5,5 +5,8 @@
 
 .card-container {
   display: flex;
-  justify-content: space-around;
+  justify-content: left;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin: 50px;
 }

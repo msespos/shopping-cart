@@ -14,19 +14,24 @@ const Card = (props) => {
   return (
     <div className="card">
       <img src={props.image} width={300} />
-      {props.title}
-      <div className="input-and-add-to-cart">
+      <div className="title">{props.title}</div>
+      <div className="description">{props.description}</div>
+      <div className="form">
         <form onSubmit={handleSubmit}>
-          <input
-            type="number"
-            onChange={(e) => setAmount(e.target.value)}
-            required
-          />
-          {cardClicked ? (
-            <div>Added</div>
-          ) : (
-            <button type="submit">Add To Cart</button>
-          )}
+          <div className="input-and-add">
+            <input
+              type="number"
+              size="4"
+              placeholder="0"
+              onChange={(e) => setAmount(e.target.value)}
+              required
+            />
+            {cardClicked ? (
+              <span>Added</span>
+            ) : (
+              <button type="submit">Add To Cart</button>
+            )}
+          </div>
         </form>
       </div>
     </div>
