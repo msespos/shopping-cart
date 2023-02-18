@@ -15,9 +15,9 @@ img {
   padding: 20px 0px;
 }
 
-.description {
+.stats, .description {
   font-size: medium;
-  max-width: 250px;
+  max-width: 200px;
   padding-bottom: 20px;
 }
 
@@ -28,4 +28,8 @@ img {
 .input-and-add {
   display: flex;
   gap: 30px;
+}
+
+.input, .button {
+  font-size: medium;
 }

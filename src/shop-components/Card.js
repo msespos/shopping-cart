@@ -13,8 +13,9 @@ const Card = (props) => {
 
   return (
     <div className="card">
-      <img src={props.image} width={300} />
+      <img src={props.image} width={200} />
       <div className="title">{props.title}</div>
+      <div className="stats">{props.stats}</div>
       <div className="description">{props.description}</div>
       <div className="form">
         <form onSubmit={handleSubmit}>
@@ -23,13 +24,14 @@ const Card = (props) => {
               type="number"
               size="4"
               placeholder="0"
+              className="input"
               onChange={(e) => setAmount(e.target.value)}
               required
             />
             {cardClicked ? (
               <span>Added</span>
             ) : (
-              <button type="submit">Add To Cart</button>
+              <button type="submit" className="button">Add To Cart</button>
             )}
           </div>
         </form>
