@@ -14,16 +14,27 @@ const UntiltedLink = "https://i.discogs.com/oW4jHzj0vuFfs3xBv8Gxap-S56198cwcNrm0
 const QuaristiceLink = "https://i.discogs.com/YT219griISwRINCPR829FtVMYdDptGvCoi57KsHKx5k/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNTUx/MDQtMTM3OTQ2ODgx/OC01NjkxLmpwZWc.jpeg"
 const OverstepsLink = "https://i.discogs.com/RM2Tli20zio7oEGywwaKEkSsh2LhfMBstDM4CI2GB8Y/rs:fit/g:sm/q:90/h:540/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxOTIw/NTMtMTM3OTQ2OTE5/OS0zMTk1LmpwZWc.jpeg"
 
-const IncunabulaDescription = "1993. Debut album. 77:50. First explorations and early versions of the duo's unique sound."
-const AmberDescription = "1994. Second album. 74:27. A darker set of soundscapes, some of which could be described as ambient."
-const TriRepetaeDescription = "1995. Third album. 72:29. Venturing into harsher beats and more mechanical sounds, this is Autechre coming into their own."
-const ChiasticSlideDescription = "1997. Fourth album. 69:48. Initially widely panned, now widely considered the groundbreaking album that it is."
-const LP5Description = "1998. Fifth album. Self-titled but known generally as LP5. 76:16 including silence and hidden track. Considered Autechre's last 'widely accessible' album."
-const ConfieldDescription = "2001. Sixth album. 62:00. A stark turn away from conventional tonality and rhythm. Often considered Autechre's masterpiece."
-const Draft730Description = "2003. Seventh album. 62:46. Somewhat of a combination of the more conventional beats and tonalities of LP5 with the experimental sounds of Confield."
-const UntiltedDescription = "2005. Eighth album. 69:50. A jolt of aggressive, even aggressively funky at times, beat-driven tracks. The title's pun is apt for this more straight-ahead album."
-const QuaristiceDescription = "2008. Ninth album. 73:15. Another left turn as the duo released 20 short, widely varied tracks. Extended digital-only versions were released later."
-const OverstepsDescription = "2010. Tenth album. 68:23. Autechre continued to surprise their audience by releasing a remarkeably subdued album, almost ambient in places, and much less beat-driven."
+const IncunabulaStats = "1993. Debut album. 77:50"
+const AmberStats = "1994. Second album. 74:27"
+const TriRepetaeStats = "1995. Third album. 72:29"
+const ChiasticSlideStats = "1997. Fourth album. 69:48"
+const LP5Stats = "1998. Fifth album. Self-titled but known generally as LP5. 76:16 including silence and hidden track."
+const ConfieldStats = "2001. Sixth album. 62:00"
+const Draft730Stats = "2003. Seventh album. 62:46"
+const UntiltedStats = "2005. Eighth album. 69:50"
+const QuaristiceStats = "2008. Ninth album. 73:15"
+const OverstepsStats = "2010. Tenth album. 68:23"
+
+const IncunabulaDescription = "First explorations and early versions of the duo's unique sound."
+const AmberDescription = "A darker set of soundscapes, some of which could be described as ambient."
+const TriRepetaeDescription = "Venturing into harsher beats and more mechanical sounds, this is Autechre coming into their own."
+const ChiasticSlideDescription = "Initially widely panned, now widely considered the groundbreaking album that it is."
+const LP5Description = "Considered Autechre's last 'widely accessible' album."
+const ConfieldDescription = "A stark turn away from conventional tonality and rhythm. Often considered Autechre's masterpiece."
+const Draft730Description = "Somewhat of a combination of the more conventional beats and tonalities of LP5 with the experimental sounds of Confield."
+const UntiltedDescription = "A jolt of aggressive, even aggressively funky at times, beat-driven tracks. The title's pun is apt for this more straight-ahead album."
+const QuaristiceDescription = "Another left turn as the duo released 20 short, widely varied tracks. Extended digital-only versions were released later."
+const OverstepsDescription = "Autechre continued to surprise their audience by releasing a remarkeably subdued album, almost ambient in places, and much less beat-driven."
 
 const Shop = () => {
   const [numInCart, setNumInCart] = useState(0);
@@ -38,26 +49,26 @@ const Shop = () => {
       <div>Items In Cart: {numInCart}</div>
       <button>Go To Cart</button>
       <div className="card-container">
-        <Card image={IncunabulaLink} title={"Incunabula"} description={IncunabulaDescription}
-              incrementCart={incrementCart} />
-        <Card image={AmberLink} title={"Amber"} description={AmberDescription}
-              incrementCart={incrementCart} />
-        <Card image={TriRepetaeLink} title={"Tri Repetae"} description={TriRepetaeDescription}
-              incrementCart={incrementCart} />
-        <Card image={ChiasticSlideLink} title={"Chiastic Slide"} description={ChiasticSlideDescription}
-              incrementCart={incrementCart} />
-        <Card image={LP5Link} title={"LP5"} description={LP5Description}
-              incrementCart={incrementCart} />
-        <Card image={ConfieldLink} title={"Confield"} description={ConfieldDescription}
-              incrementCart={incrementCart} />
-        <Card image={Draft730Link} title={"Draft 7.30"} description={Draft730Description}
-              incrementCart={incrementCart} />
-        <Card image={UntiltedLink} title={"Untilted"} description={UntiltedDescription}
-              incrementCart={incrementCart} />
-        <Card image={QuaristiceLink} title={"Quaristice"} description={QuaristiceDescription}
-              incrementCart={incrementCart} />
-        <Card image={OverstepsLink} title={"Oversteps"} description={OverstepsDescription}
-              incrementCart={incrementCart} />
+        <Card image={IncunabulaLink} title={"Incunabula"} stats={IncunabulaStats}
+              description={IncunabulaDescription} incrementCart={incrementCart} />
+        <Card image={AmberLink} title={"Amber"} stats={AmberStats}
+              description={AmberDescription} incrementCart={incrementCart} />
+        <Card image={TriRepetaeLink} title={"Tri Repetae"} stats={TriRepetaeStats}
+              description={TriRepetaeDescription} incrementCart={incrementCart} />
+        <Card image={ChiasticSlideLink} title={"Chiastic Slide"} stats={ChiasticSlideStats}
+              description={ChiasticSlideDescription} incrementCart={incrementCart} />
+        <Card image={LP5Link} title={"LP5"} stats={LP5Stats}
+              description={LP5Description} incrementCart={incrementCart} />
+        <Card image={ConfieldLink} title={"Confield"} stats={ConfieldStats}
+              description={ConfieldDescription} incrementCart={incrementCart} />
+        <Card image={Draft730Link} title={"Draft 7.30"} stats={Draft730Stats}
+              description={Draft730Description} incrementCart={incrementCart} />
+        <Card image={UntiltedLink} title={"Untilted"} stats={UntiltedStats}
+              description={UntiltedDescription} incrementCart={incrementCart} />
+        <Card image={QuaristiceLink} title={"Quaristice"} stats={QuaristiceStats}
+              description={QuaristiceDescription} incrementCart={incrementCart} />
+        <Card image={OverstepsLink} title={"Oversteps"} stats={OverstepsStats}
+              description={OverstepsDescription} incrementCart={incrementCart} />
       </div>
     </div>
   );
