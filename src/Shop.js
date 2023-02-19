@@ -12,9 +12,9 @@ const ConfieldLink = "https://i.discogs.com/b77HFyVh7gR_urHff2UuoO8ek_Ih5Yn6_Yf_
 const Draft730Link = "https://i.discogs.com/_UtJLZXKf1B2mgxljNJXjbOgy93gGJOQ9yIJVm4FdmM/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzMDEx/NS0xMTYxMzUzMTQy/LmpwZWc.jpeg"
 const UntiltedLink = "https://i.discogs.com/oW4jHzj0vuFfs3xBv8Gxap-S56198cwcNrm0MZ3kh_g/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQxNDY0/Ni0xMjcyMjk4Njkw/LmpwZWc.jpeg"
 const QuaristiceLink = "https://i.discogs.com/YT219griISwRINCPR829FtVMYdDptGvCoi57KsHKx5k/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNTUx/MDQtMTM3OTQ2ODgx/OC01NjkxLmpwZWc.jpeg"
-const OverstepsLink = "https://i.discogs.com/RM2Tli20zio7oEGywwaKEkSsh2LhfMBstDM4CI2GB8Y/rs:fit/g:sm/q:90/h:540/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxOTIw/NTMtMTM3OTQ2OTE5/OS0zMTk1LmpwZWc.jpeg"
+const OverstepsLink = "https://upload.wikimedia.org/wikipedia/en/c/cc/Autechre_-_Oversteps.jpg"
 const ExaiLink = "https://i.discogs.com/78OozM9lvI0cOeO5WCyI0cS3mNo4SLtvqXM50sLER48/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQzMzgx/NDQtMTM2ODA4NTIy/NC02ODQwLmpwZWc.jpeg"
-const Elseq15Link = "https://i.discogs.com/ge7X0RkKEzfqyoVcHROMPzSIGokFG_TLVDAaoleR-eA/rs:fit/g:sm/q:90/h:300/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg1NDEw/OTItMTQ2MzY3NzY1/OS0xNjcyLmpwZWc.jpeg"
+const Elseq15Link = "https://d1rgjmn2wmqeif.cloudfront.net/r/73330-1.jpg"
 
 const IncunabulaStats = "1993. Debut album. 77:50"
 const AmberStats = "1994. Second album. 74:27"
