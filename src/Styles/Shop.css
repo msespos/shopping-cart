@@ -4,9 +4,8 @@
 }
 
 .card-container {
-  display: flex;
-  justify-content: left;
-  flex-wrap: wrap;
-  gap: 30px;
-  margin: 50px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 265px);
+  justify-content: center;
+  gap: 20px;
 }

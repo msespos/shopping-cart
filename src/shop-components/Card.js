@@ -13,7 +13,7 @@ const Card = (props) => {
 
   return (
     <div className="card">
-      <img src={props.image} width={200} />
+      <img src={props.image} width={178} />
       <div className="title">{props.title}</div>
       <div className="stats">{props.stats}</div>
       <div className="description">{props.description}</div>
@@ -29,7 +29,7 @@ const Card = (props) => {
               required
             />
             {cardClicked ? (
-              <span>Added</span>
+              <span className="added">Added</span>
             ) : (
               <button type="submit" className="button">Add To Cart</button>
             )}
