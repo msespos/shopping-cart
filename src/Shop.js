@@ -13,6 +13,8 @@ const Draft730Link = "https://i.discogs.com/_UtJLZXKf1B2mgxljNJXjbOgy93gGJOQ9yIJ
 const UntiltedLink = "https://i.discogs.com/oW4jHzj0vuFfs3xBv8Gxap-S56198cwcNrm0MZ3kh_g/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQxNDY0/Ni0xMjcyMjk4Njkw/LmpwZWc.jpeg"
 const QuaristiceLink = "https://i.discogs.com/YT219griISwRINCPR829FtVMYdDptGvCoi57KsHKx5k/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNTUx/MDQtMTM3OTQ2ODgx/OC01NjkxLmpwZWc.jpeg"
 const OverstepsLink = "https://i.discogs.com/RM2Tli20zio7oEGywwaKEkSsh2LhfMBstDM4CI2GB8Y/rs:fit/g:sm/q:90/h:540/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTIxOTIw/NTMtMTM3OTQ2OTE5/OS0zMTk1LmpwZWc.jpeg"
+const ExaiLink = "https://i.discogs.com/78OozM9lvI0cOeO5WCyI0cS3mNo4SLtvqXM50sLER48/rs:fit/g:sm/q:90/h:595/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTQzMzgx/NDQtMTM2ODA4NTIy/NC02ODQwLmpwZWc.jpeg"
+const Elseq15Link = "https://i.discogs.com/ge7X0RkKEzfqyoVcHROMPzSIGokFG_TLVDAaoleR-eA/rs:fit/g:sm/q:90/h:300/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg1NDEw/OTItMTQ2MzY3NzY1/OS0xNjcyLmpwZWc.jpeg"
 
 const IncunabulaStats = "1993. Debut album. 77:50"
 const AmberStats = "1994. Second album. 74:27"
@@ -24,6 +26,8 @@ const Draft730Stats = "2003. Seventh album. 62:46"
 const UntiltedStats = "2005. Eighth album. 69:50"
 const QuaristiceStats = "2008. Ninth album. 73:15"
 const OverstepsStats = "2010. Tenth album. 68:23"
+const ExaiStats = "2013. Eleventh album. 121:32"
+const Elseq15Stats = "2016. Twelth album. 247:49"
 
 const IncunabulaDescription = "First explorations and early versions of the duo's unique sound."
 const AmberDescription = "A darker set of soundscapes, some of which could be described as ambient."
@@ -35,6 +39,8 @@ const Draft730Description = "Somewhat of a combination of the more conventional 
 const UntiltedDescription = "A jolt of aggressive, even aggressively funky at times, beat-driven tracks. The title's pun is apt for this more straight-ahead album."
 const QuaristiceDescription = "Another left turn as the duo released 20 short, widely varied tracks. Extended digital-only versions were released later."
 const OverstepsDescription = "Autechre continued to surprise their audience by releasing a remarkeably subdued album, almost ambient in places, and much less beat-driven."
+const ExaiDescription = "The first double album by the duo. A mix of rough challenging beats and occasional more serene moments."
+const Elseq15Description = "A set of 5 mini-albums comprising 4 hours of music. Sprawling and epic. Only available in digital format."
 
 const Shop = () => {
   const [numInCart, setNumInCart] = useState(0);
@@ -69,6 +75,10 @@ const Shop = () => {
               description={QuaristiceDescription} incrementCart={incrementCart} />
         <Card image={OverstepsLink} title={"Oversteps"} stats={OverstepsStats}
               description={OverstepsDescription} incrementCart={incrementCart} />
+        <Card image={ExaiLink} title={"Exai"} stats={ExaiStats}
+              description={ExaiDescription} incrementCart={incrementCart} />
+        <Card image={Elseq15Link} title={"elseq 1-5"} stats={Elseq15Stats}
+              description={Elseq15Description} incrementCart={incrementCart} />
       </div>
     </div>
   );
