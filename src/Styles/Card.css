@@ -28,13 +28,9 @@ img {
 .input-and-add {
   display: flex;
   gap: 30px;
+  line-height: 28.5px;
 }
 
 .input, .button, .added {
   font-size: large;
-}
-
-.added {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  line-height: 1;
 }
