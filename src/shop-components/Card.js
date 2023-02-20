@@ -29,7 +29,7 @@ const Card = (props) => {
               required
             />
             {cardClicked ? (
-              <span className="added">Added</span>
+              <div className="added">Added</div>
             ) : (
               <button type="submit" className="button">Add To Cart</button>
             )}
