@@ -12,5 +12,11 @@ a {
   color: black;
 }
 
-.logo {
+em {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
+}
+
+.note {
+  margin: 30px;
 }
