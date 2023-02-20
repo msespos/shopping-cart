@@ -1,8 +1,3 @@
-* {
-  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  font-size: xx-large;
-}
-
 .card-container {
   display: grid;
   grid-template-columns: repeat(auto-fill, 265px);
