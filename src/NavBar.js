@@ -13,7 +13,7 @@ const NavBar = () => {
         </em>
       </div>
       <div className='navbar'>
-        <img src={logo} alt="VAA logo" width={50} />
+        <Link to={'/'}><img src={logo} alt="VAA logo" width={50} /></Link>
         <Link to={'/'}>Home</Link>
         <Link to={'/shop'}>Shop</Link>
       </div>
