@@ -55,30 +55,41 @@ const Shop = () => {
       <div>Items In Cart: {numInCart}</div>
       <button>Go To Cart</button>
       <div className="card-container">
-        <Card image={IncunabulaLink} title={"Incunabula"} stats={IncunabulaStats}
-              description={IncunabulaDescription} incrementCart={incrementCart} />
-        <Card image={AmberLink} title={"Amber"} stats={AmberStats}
-              description={AmberDescription} incrementCart={incrementCart} />
-        <Card image={TriRepetaeLink} title={"Tri Repetae"} stats={TriRepetaeStats}
-              description={TriRepetaeDescription} incrementCart={incrementCart} />
-        <Card image={ChiasticSlideLink} title={"Chiastic Slide"} stats={ChiasticSlideStats}
-              description={ChiasticSlideDescription} incrementCart={incrementCart} />
-        <Card image={LP5Link} title={"LP5"} stats={LP5Stats}
-              description={LP5Description} incrementCart={incrementCart} />
-        <Card image={ConfieldLink} title={"Confield"} stats={ConfieldStats}
-              description={ConfieldDescription} incrementCart={incrementCart} />
-        <Card image={Draft730Link} title={"Draft 7.30"} stats={Draft730Stats}
-              description={Draft730Description} incrementCart={incrementCart} />
-        <Card image={UntiltedLink} title={"Untilted"} stats={UntiltedStats}
-              description={UntiltedDescription} incrementCart={incrementCart} />
-        <Card image={QuaristiceLink} title={"Quaristice"} stats={QuaristiceStats}
-              description={QuaristiceDescription} incrementCart={incrementCart} />
-        <Card image={OverstepsLink} title={"Oversteps"} stats={OverstepsStats}
-              description={OverstepsDescription} incrementCart={incrementCart} />
-        <Card image={ExaiLink} title={"Exai"} stats={ExaiStats}
-              description={ExaiDescription} incrementCart={incrementCart} />
-        <Card image={Elseq15Link} title={"elseq 1-5"} stats={Elseq15Stats}
-              description={Elseq15Description} incrementCart={incrementCart} />
+        <Card image={IncunabulaLink} alt={"Incunabula Album Cover"} title={"Incunabula"}
+              stats={IncunabulaStats} description={IncunabulaDescription}
+              incrementCart={incrementCart} />
+        <Card image={AmberLink} alt={"Amber Album Cover"} title={"Amber"}
+              stats={AmberStats} description={AmberDescription}
+              incrementCart={incrementCart} />
+        <Card image={TriRepetaeLink} alt={"Tri Repetae Album Cover"} title={"Tri Repetae"}
+              stats={TriRepetaeStats} description={TriRepetaeDescription}
+              incrementCart={incrementCart} />
+        <Card image={ChiasticSlideLink} alt={"Chiastic Slide Album Cover"} title={"Chiastic Slide"}
+              stats={ChiasticSlideStats} description={ChiasticSlideDescription}
+              incrementCart={incrementCart} />
+        <Card image={LP5Link} alt={"LP5 Album Cover"} title={"LP5"}
+              stats={LP5Stats} description={LP5Description} incrementCart={incrementCart} />
+        <Card image={ConfieldLink} alt={"Confield Album Cover"} title={"Confield"}
+              stats={ConfieldStats} description={ConfieldDescription}
+              incrementCart={incrementCart} />
+        <Card image={Draft730Link} alt={"Draft 7.30 Album Cover"} title={"Draft 7.30"}
+              stats={Draft730Stats} description={Draft730Description}
+              incrementCart={incrementCart} />
+        <Card image={UntiltedLink} alt={"Untilted Album Cover"} title={"Untilted"}
+              stats={UntiltedStats} description={UntiltedDescription}
+              incrementCart={incrementCart} />
+        <Card image={QuaristiceLink} alt={"Quaristice Album Cover"} title={"Quaristice"}
+              stats={QuaristiceStats} description={QuaristiceDescription}
+              incrementCart={incrementCart} />
+        <Card image={OverstepsLink} alt={"Oversteps Album Cover"} title={"Oversteps"}
+              stats={OverstepsStats} description={OverstepsDescription}
+              incrementCart={incrementCart} />
+        <Card image={ExaiLink} alt={"Exai Album Cover"} title={"Exai"}
+              stats={ExaiStats} description={ExaiDescription}
+              incrementCart={incrementCart} />
+        <Card image={Elseq15Link} alt={"elseq 1-5 Album Cover"} title={"elseq 1-5"}
+              stats={Elseq15Stats} description={Elseq15Description}
+              incrementCart={incrementCart} />
       </div>
     </div>
   );

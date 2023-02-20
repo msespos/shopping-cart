@@ -13,7 +13,7 @@ const Card = (props) => {
 
   return (
     <div className="card">
-      <img src={props.image} width={178} />
+      <img src={props.image} alt={props.alt} width={178} />
       <div className="title">{props.title}</div>
       <div className="stats">{props.stats}</div>
       <div className="description">{props.description}</div>
