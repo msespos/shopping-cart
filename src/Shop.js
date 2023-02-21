@@ -56,7 +56,7 @@ const Shop = () => {
       <NavBar />
       <div class="items-and-button">
         <div className="icon-and-num">
-          <img src={CartLogo} width={50}></img>
+          <img src={CartLogo} alt="A shopping cart logo" width={50}></img>
           <div className="num-in-cart">{numInCart}</div>
         </div>
         <button onClick={() => alert("Cart Permanently Under Construction. This is not an actual store!")}>Go To Cart</button>
