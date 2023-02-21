@@ -22,7 +22,9 @@ const Card = (props) => {
           <div className="input-and-add">
             <input
               type="number"
-              size="4"
+              size="5"
+              min="1"
+              max="100"
               placeholder="0"
               className="input"
               onChange={(e) => setAmount(e.target.value)}
