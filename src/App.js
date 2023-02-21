@@ -7,7 +7,7 @@ const App = () => {
     <div>
       <NavBar />
       <div className="image-and-blurb">
-        <img className="image" src={VAAimg} alt="Vintage Autechre Albums image" width={300} />
+        <img className="image" src={VAAimg} alt="Vintage Autechre Albums" width={300} />
         <div className="blurb">
           Autechre have been true musical pioneers for over thirty years.
           Buy digital copies of their first 12 albums here.<br></br><br></br>
