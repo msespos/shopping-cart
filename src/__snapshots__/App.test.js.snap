@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component includes some of the blurb in the body: 
+      Autechre have been true musical pioneers for over thirty years.
+     1`] = `
+<DocumentFragment>
+  <div>
+    <div>
+      <div
+        class="note"
+      >
+        <em>
+          Note: this is not an actual store. It's simply a site created for learning purposes. I'm not actually selling anything, least of all Autechre's music!
+          <br />
+          But you should definitely go listen to Autechre right now!
+        </em>
+      </div>
+      <div
+        class="navbar"
+      >
+        <a
+          href="#/"
+        >
+          <img
+            alt="VAA logo"
+            src="logo.png"
+            width="50"
+          />
+        </a>
+        <a
+          href="#/"
+        >
+          Home
+        </a>
+        <a
+          href="#/shop"
+        >
+          Shop
+        </a>
+      </div>
+    </div>
+    <div
+      class="image-and-blurb"
+    >
+      <img
+        alt="Vintage Autechre Albums"
+        class="image"
+        src="VintageAutechreAlbums.png"
+        width="300"
+      />
+      <div
+        class="blurb"
+      >
+        Autechre have been true musical pioneers for over thirty years. Buy digital copies of their first 12 albums here.
+        <br />
+        <br />
+        If you've never heard Autechre before, strap in - you're in for an experience like no other!
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;
