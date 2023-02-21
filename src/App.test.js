@@ -10,6 +10,13 @@ describe("App component", () => {
     expect(getByText("Shop")).toBeInTheDocument();
   });
 
+  it("includes some of the blurb in the navbar note", () => {
+    const { asFragment } = render(<App />, {wrapper: HashRouter});
+    expect(asFragment()).toMatchSnapshot(`
+      this is not an actual store.
+    `)
+  });
+
   it("includes some of the blurb in the body", () => {
     const { asFragment } = render(<App />, {wrapper: HashRouter});
     expect(asFragment()).toMatchSnapshot(`
