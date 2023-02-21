@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component includes some of the blurb in the navbar note: 
+      this is not an actual store.
+     1`] = `
+<DocumentFragment>
+  <div>
+    <div
+      class="note"
+    >
+      <em>
+        Note: this is not an actual store. It's simply a site created for learning purposes. I'm not actually selling anything, least of all Autechre's music!
+        <br />
+        But you should definitely go listen to Autechre right now!
+      </em>
+    </div>
+    <div
+      class="navbar"
+    >
+      <a
+        href="#/"
+      >
+        <img
+          alt="VAA logo"
+          src="logo.png"
+          width="50"
+        />
+      </a>
+      <a
+        href="#/"
+      >
+        Home
+      </a>
+      <a
+        href="#/shop"
+      >
+        Shop
+      </a>
+    </div>
+  </div>
+</DocumentFragment>
+`;
