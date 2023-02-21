@@ -54,7 +54,7 @@ const Shop = () => {
   return (
     <div>
       <NavBar />
-      <div class="items-and-button">
+      <div className="items-and-button">
         <div className="icon-and-num">
           <img src={CartLogo} alt="A shopping cart logo" width={50}></img>
           <div className="num-in-cart">{numInCart}</div>
