@@ -22,6 +22,7 @@ const Card = (props) => {
           <div className="input-and-add">
             <input
               type="number"
+              aria-label={props.title}
               size="5"
               min="1"
               max="100"
@@ -33,7 +34,7 @@ const Card = (props) => {
             {cardClicked ? (
               <div className="added">Added</div>
             ) : (
-              <button type="submit" className="button">Add To Cart</button>
+              <button type="submit" className="button" data-testid={props.title}>Add To Cart</button>
             )}
           </div>
         </form>
