@@ -6,6 +6,13 @@ import "@testing-library/user-event";
 import userEvent from "@testing-library/user-event";
 
 describe("Shop component", () => {
+  it("displays the correct heading", () => {
+    const { asFragment } = render(<Shop />, {wrapper: HashRouter});
+    expect(asFragment()).toMatchSnapshot(`
+      Vintage Autechre Albums
+    `)
+  });
+
   it("has the correct source for the shopping cart logo image", () => {
     render(<Shop />, {wrapper: HashRouter});
     const logoImage = screen.getByAltText(/A shopping cart logo/i);
