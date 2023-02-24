@@ -53,4 +53,32 @@ describe("Shop component", () => {
     const numInCart = screen.getByTestId("num-in-cart");
     expect(numInCart.textContent).toBe("100");
   });
+
+  it("has the correct image source for a card's album cover", () => {
+    render(<Shop />, {wrapper: HashRouter});
+    const albumImage = screen.getByAltText("Chiastic Slide Album Cover");
+    const imageSource = "https://i.discogs.com/0-NYLZSAqU1h4B_nbVPC5GvFmG1zvc586xjFhRI6cXI/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0OTYt/MTE0NDIxMzUyNi5q/cGVn.jpeg";
+    expect(albumImage).toHaveAttribute("src", imageSource);
+  });
+
+  it("displays the correct title for a card", () => {
+    const { asFragment } = render(<Shop />, {wrapper: HashRouter});
+    expect(asFragment()).toMatchSnapshot(`
+      Tri Repetae
+    `)
+  });
+
+  it("displays the correct stats for a card", () => {
+    const { asFragment } = render(<Shop />, {wrapper: HashRouter});
+    expect(asFragment()).toMatchSnapshot(`
+      2005. Eighth album. 69:50
+    `)
+  });
+
+  it("displays the correct description for a card", () => {
+    const { asFragment } = render(<Shop />, {wrapper: HashRouter});
+    expect(asFragment()).toMatchSnapshot(`
+      The first double album by the duo. A mix of rough challenging beats and occasional more serene moments.
+    `)
+  });
 });
