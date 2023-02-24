@@ -1,6 +1,12 @@
+.top-of-shop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 45px;
+}
+
 .items-and-button {
   display: flex;
-  margin: 30px;
   justify-content: flex-end;
   gap: 30px
 }
