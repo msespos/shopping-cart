@@ -116,7 +116,7 @@ const Shop = () => {
       <div className="items-and-button">
         <div className="icon-and-num">
           <img src={CartLogo} alt="A shopping cart logo" width={50}></img>
-          <div className="num-in-cart">{numInCart}</div>
+          <div className="num-in-cart" data-testid="num-in-cart">{numInCart}</div>
         </div>
         <button onClick={() => alert("Cart Permanently Under Construction. This is not an actual store!")}>Go To Cart</button>
       </div>
