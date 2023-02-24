@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/shopping-cart/static/css/main.11eaed57.css",
-    "main.js": "/shopping-cart/static/js/main.1ac15474.js",
+    "main.css": "/shopping-cart/static/css/main.ecc966a3.css",
+    "main.js": "/shopping-cart/static/js/main.c7e5a7f8.js",
     "static/media/VintageAutechreAlbums.png": "/shopping-cart/static/media/VintageAutechreAlbums.145fe204332398845c36.png",
     "static/media/logo.png": "/shopping-cart/static/media/logo.3b74b04e0f843941f156.png",
     "static/media/shopping-cart-icon.svg": "/shopping-cart/static/media/shopping-cart-icon.eb1a32e7af3884336e60c37d51399e12.svg",
     "index.html": "/shopping-cart/index.html",
-    "main.11eaed57.css.map": "/shopping-cart/static/css/main.11eaed57.css.map",
-    "main.1ac15474.js.map": "/shopping-cart/static/js/main.1ac15474.js.map"
+    "main.ecc966a3.css.map": "/shopping-cart/static/css/main.ecc966a3.css.map",
+    "main.c7e5a7f8.js.map": "/shopping-cart/static/js/main.c7e5a7f8.js.map"
   },
   "entrypoints": [
-    "static/css/main.11eaed57.css",
-    "static/js/main.1ac15474.js"
+    "static/css/main.ecc966a3.css",
+    "static/js/main.c7e5a7f8.js"
   ]
 }
