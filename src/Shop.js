@@ -113,12 +113,15 @@ const Shop = () => {
   return (
     <div>
       <NavBar />
-      <div className="items-and-button">
-        <div className="icon-and-num">
-          <img src={CartLogo} alt="A shopping cart logo" width={50}></img>
-          <div className="num-in-cart" data-testid="num-in-cart">{numInCart}</div>
+      <div className="top-of-shop">
+        <div>Vintage Autechre Albums</div>
+        <div className="items-and-button">
+          <div className="icon-and-num">
+            <img src={CartLogo} alt="A shopping cart logo" width={50}></img>
+            <div className="num-in-cart" data-testid="num-in-cart">{numInCart}</div>
+          </div>
+          <button onClick={() => alert("Cart Permanently Under Construction. This is not an actual store!")}>Go To Cart</button>
         </div>
-        <button onClick={() => alert("Cart Permanently Under Construction. This is not an actual store!")}>Go To Cart</button>
       </div>
       <div className="card-container">
         {
