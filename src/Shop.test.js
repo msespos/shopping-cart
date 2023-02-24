@@ -38,4 +38,19 @@ describe("Shop component", () => {
     const numInCart = screen.getByTestId("num-in-cart");
     expect(numInCart.textContent).toBe("1");
   });
+
+  it("increments the cart by 100 when 25 is input and the Add To Cart button is clicked\
+      and 75 is input for a different album and the button is clicked", async () => {
+    render(<Shop />, {wrapper: HashRouter});
+    const input1 = screen.getByLabelText("Incunabula");
+    const addToCartButton1 = screen.getByTestId("Incunabula");
+    fireEvent.change(input1, {target: {value: 25}});
+    await userEvent.click(addToCartButton1);
+    const input2 = screen.getByLabelText("Amber");
+    const addToCartButton2 = screen.getByTestId("Amber");
+    fireEvent.change(input2, {target: {value: 75}});
+    await userEvent.click(addToCartButton2);
+    const numInCart = screen.getByTestId("num-in-cart");
+    expect(numInCart.textContent).toBe("100");
+  });
 });
