@@ -12,7 +12,7 @@ describe("App component", () => {
 
   it("renders the component", () => {
     const component = render(<NavBar />, {wrapper: HashRouter});
-    expect(component).toMatchSnapshot()
+    expect(component).toMatchSnapshot();
   });
 
   it("has the correct source for the logo image in the navbar", () => {

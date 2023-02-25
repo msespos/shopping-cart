@@ -6,7 +6,7 @@ import '@testing-library/jest-dom';
 describe("App component", () => {
   it("renders the component", () => {
     const component = render(<App />, {wrapper: HashRouter});
-    expect(component).toMatchSnapshot()
+    expect(component).toMatchSnapshot();
   });
 
   it("has the correct source for the body image", () => {

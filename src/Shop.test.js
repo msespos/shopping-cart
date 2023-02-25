@@ -8,7 +8,7 @@ import userEvent from "@testing-library/user-event";
 describe("Shop component", () => {
   it("renders the component", () => {
     const component = render(<Shop />, {wrapper: HashRouter});
-    expect(component).toMatchSnapshot()
+    expect(component).toMatchSnapshot();
   });
 
   it("has the correct source for the shopping cart logo image", () => {
