@@ -6,11 +6,9 @@ import "@testing-library/user-event";
 import userEvent from "@testing-library/user-event";
 
 describe("Shop component", () => {
-  it("displays the correct heading", () => {
-    const { asFragment } = render(<Shop />, {wrapper: HashRouter});
-    expect(asFragment()).toMatchSnapshot(`
-      Vintage Autechre Albums
-    `)
+  it("renders the component", () => {
+    const component = render(<Shop />, {wrapper: HashRouter});
+    expect(component).toMatchSnapshot()
   });
 
   it("has the correct source for the shopping cart logo image", () => {
