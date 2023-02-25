@@ -1,62 +1,172 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App component includes some of the blurb in the body: 
-      Autechre have been true musical pioneers for over thirty years.
-     1`] = `
-<DocumentFragment>
-  <div>
+exports[`App component renders the component 1`] = `
+Object {
+  "asFragment": [Function],
+  "baseElement": <body>
     <div>
-      <div
-        class="note"
-      >
-        <em>
-          Note: this is not an actual store. It's simply a site created for learning purposes. I'm not actually selling anything, least of all Autechre's music!
-          <br />
-          But you should definitely go listen to Autechre right now!
-        </em>
-      </div>
-      <div
-        class="navbar"
-      >
-        <a
-          href="#/"
+      <div>
+        <div>
+          <div
+            class="note"
+          >
+            <em>
+              Note: this is not an actual store. It's simply a site created for learning purposes. I'm not actually selling anything, least of all Autechre's music!
+              <br />
+              But you should definitely go listen to Autechre right now!
+            </em>
+          </div>
+          <div
+            class="navbar"
+          >
+            <a
+              href="#/"
+            >
+              <img
+                alt="VAA logo"
+                src="logo.png"
+                width="50"
+              />
+            </a>
+            <a
+              href="#/"
+            >
+              Home
+            </a>
+            <a
+              href="#/shop"
+            >
+              Shop
+            </a>
+          </div>
+        </div>
+        <div
+          class="image-and-blurb"
         >
           <img
-            alt="VAA logo"
-            src="logo.png"
-            width="50"
+            alt="Vintage Autechre Albums"
+            class="image"
+            src="VintageAutechreAlbums.png"
+            width="300"
           />
-        </a>
-        <a
-          href="#/"
-        >
-          Home
-        </a>
-        <a
-          href="#/shop"
-        >
-          Shop
-        </a>
+          <div
+            class="blurb"
+          >
+            Autechre have been true musical pioneers for over thirty years. Buy digital copies of their first 12 albums here.
+            <br />
+            <br />
+            If you've never heard Autechre before, strap in - you're in for an experience like no other!
+          </div>
+        </div>
       </div>
     </div>
-    <div
-      class="image-and-blurb"
-    >
-      <img
-        alt="Vintage Autechre Albums"
-        class="image"
-        src="VintageAutechreAlbums.png"
-        width="300"
-      />
+  </body>,
+  "container": <div>
+    <div>
+      <div>
+        <div
+          class="note"
+        >
+          <em>
+            Note: this is not an actual store. It's simply a site created for learning purposes. I'm not actually selling anything, least of all Autechre's music!
+            <br />
+            But you should definitely go listen to Autechre right now!
+          </em>
+        </div>
+        <div
+          class="navbar"
+        >
+          <a
+            href="#/"
+          >
+            <img
+              alt="VAA logo"
+              src="logo.png"
+              width="50"
+            />
+          </a>
+          <a
+            href="#/"
+          >
+            Home
+          </a>
+          <a
+            href="#/shop"
+          >
+            Shop
+          </a>
+        </div>
+      </div>
       <div
-        class="blurb"
+        class="image-and-blurb"
       >
-        Autechre have been true musical pioneers for over thirty years. Buy digital copies of their first 12 albums here.
-        <br />
-        <br />
-        If you've never heard Autechre before, strap in - you're in for an experience like no other!
+        <img
+          alt="Vintage Autechre Albums"
+          class="image"
+          src="VintageAutechreAlbums.png"
+          width="300"
+        />
+        <div
+          class="blurb"
+        >
+          Autechre have been true musical pioneers for over thirty years. Buy digital copies of their first 12 albums here.
+          <br />
+          <br />
+          If you've never heard Autechre before, strap in - you're in for an experience like no other!
+        </div>
       </div>
     </div>
-  </div>
-</DocumentFragment>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
 `;
