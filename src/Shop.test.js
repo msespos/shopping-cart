@@ -67,23 +67,20 @@ describe("Shop component", () => {
   });
 
   it("displays the correct title for a card", () => {
-    const { asFragment } = render(<Shop />, {wrapper: HashRouter});
-    expect(asFragment()).toMatchSnapshot(`
-      Tri Repetae
-    `)
+    const { getByText } = render(<Shop />, {wrapper: HashRouter});
+    const title = "Tri Repetae";
+    expect(getByText(title)).toBeInTheDocument();
   });
 
   it("displays the correct stats for a card", () => {
-    const { asFragment } = render(<Shop />, {wrapper: HashRouter});
-    expect(asFragment()).toMatchSnapshot(`
-      2005. Eighth album. 69:50
-    `)
+    const { getByText } = render(<Shop />, {wrapper: HashRouter});
+    const stats = "2005. Eighth album. 69:50";
+    expect(getByText(stats)).toBeInTheDocument();
   });
 
   it("displays the correct description for a card", () => {
-    const { asFragment } = render(<Shop />, {wrapper: HashRouter});
-    expect(asFragment()).toMatchSnapshot(`
-      The first double album by the duo. A mix of rough challenging beats and occasional more serene moments.
-    `)
+    const { getByText } = render(<Shop />, {wrapper: HashRouter});
+    const description = "The first double album by the duo. A mix of rough challenging beats and occasional more serene moments.";
+    expect(getByText(description)).toBeInTheDocument();
   });
 });
