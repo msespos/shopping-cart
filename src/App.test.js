@@ -4,11 +4,9 @@ import App from "./App";
 import '@testing-library/jest-dom';
 
 describe("App component", () => {
-  it("includes some of the blurb in the body", () => {
-    const { asFragment } = render(<App />, {wrapper: HashRouter});
-    expect(asFragment()).toMatchSnapshot(`
-      Autechre have been true musical pioneers for over thirty years.
-    `)
+  it("renders the component", () => {
+    const component = render(<App />, {wrapper: HashRouter});
+    expect(component).toMatchSnapshot()
   });
 
   it("has the correct source for the body image", () => {
